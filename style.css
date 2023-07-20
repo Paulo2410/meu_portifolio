@@ -227,4 +227,122 @@ footer p {
     transition: 0.5s;
 }
 
+@media(max-width: 1109px){
+
+    .card-projetos {
+        display: inline-block;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: 18%;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        
+    }
+
+    #sobre {
+        display: block;
+
+    }
+
+    section div h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section img {
+        align-items: center;
+    }
+
+    section div p {
+        font-size: 15px;
+    }
+
+    .projetos h2{
+        font-size: 30px;
+        text-align: center;      
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+        font-size: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .meu-nome {
+        position: absolute;
+        top: 25%;
+        left: 3%;
+    }
+
+    h1 {
+        color: white;
+        font-size: 33px;
+    }
+    
+    h1 span {
+        color: #f9004d;
+    }
+    
+    .meu-nome h3 {
+        color: white;
+        font-size: 15px;
+    }
+
+    .portifolio {
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .caixa-principal {
+
+        height: 60vh;
+        width: 100%; 
+        background-color: #191919;
+        background-image: url(background4.png);
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: right;
+    
+    }
+
+    section img {
+        height: 200px;
+        margin-right: 20px;
+        border-radius: 100%;
+        border: 2px solid #f9004d;
+        
+    }
+
+    section div button {
+        color: white;
+        background: #f9004d;
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+        border: none;
+        border-radius: 26px;
+        cursor: pointer;
+    }
+
+    .social a {
+        background-color: #f9004d;
+        border-radius: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    
+}
+
+
     
